@@ -1,0 +1,12 @@
+Source: ros-turbulent-rclcpp-lifecycle
+Section: misc
+Priority: extra
+Maintainer: Karsten Knese <karsten@osrfoundation.org>
+Build-Depends: debhelper (>= 9.0.0), ros-turbulent-ament-cmake-gtest, ros-turbulent-ament-cmake-ros, ros-turbulent-ament-lint-auto, ros-turbulent-ament-lint-common, ros-turbulent-lifecycle-msgs, ros-turbulent-rcl-lifecycle, ros-turbulent-rclcpp, ros-turbulent-rmw-implementation, ros-turbulent-rosidl-typesupport-cpp, ros-turbulent-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-turbulent-rclcpp-lifecycle
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-turbulent-lifecycle-msgs, ros-turbulent-rcl-lifecycle, ros-turbulent-rclcpp, ros-turbulent-rmw-implementation, ros-turbulent-rosidl-typesupport-cpp, ros-turbulent-ros-workspace
+Description: Package containing a prototype for lifecycle implementation
