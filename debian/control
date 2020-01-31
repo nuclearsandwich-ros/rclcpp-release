@@ -1,0 +1,12 @@
+Source: ros-turbulent-rclcpp
+Section: misc
+Priority: extra
+Maintainer: Dirk Thomas <dthomas@osrfoundation.org>
+Build-Depends: debhelper (>= 9.0.0), ros-turbulent-ament-cmake-gmock, ros-turbulent-ament-cmake-gtest, ros-turbulent-ament-cmake-ros, ros-turbulent-ament-lint-auto, ros-turbulent-ament-lint-common, ros-turbulent-builtin-interfaces, ros-turbulent-rcl, ros-turbulent-rcl-interfaces, ros-turbulent-rcl-yaml-param-parser, ros-turbulent-rcpputils, ros-turbulent-rmw, ros-turbulent-rmw-implementation, ros-turbulent-rmw-implementation-cmake, ros-turbulent-rosgraph-msgs, ros-turbulent-rosidl-generator-cpp, ros-turbulent-rosidl-typesupport-c, ros-turbulent-rosidl-typesupport-cpp, ros-turbulent-test-msgs, ros-turbulent-tracetools, ros-turbulent-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-turbulent-rclcpp
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-turbulent-ament-cmake, ros-turbulent-builtin-interfaces, ros-turbulent-rcl, ros-turbulent-rcl-interfaces, ros-turbulent-rcl-yaml-param-parser, ros-turbulent-rcpputils, ros-turbulent-rmw, ros-turbulent-rmw-implementation, ros-turbulent-rosgraph-msgs, ros-turbulent-rosidl-generator-cpp, ros-turbulent-rosidl-typesupport-c, ros-turbulent-rosidl-typesupport-cpp, ros-turbulent-tracetools, ros-turbulent-ros-workspace
+Description: The ROS client library in C++.
