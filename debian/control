@@ -1,0 +1,12 @@
+Source: ros-turbulent-rclcpp-action
+Section: misc
+Priority: extra
+Maintainer: Dirk Thomas <dthomas@osrfoundation.org>
+Build-Depends: debhelper (>= 9.0.0), ros-turbulent-action-msgs, ros-turbulent-ament-cmake, ros-turbulent-ament-cmake-gtest, ros-turbulent-ament-cmake-ros, ros-turbulent-ament-lint-auto, ros-turbulent-ament-lint-common, ros-turbulent-rcl-action, ros-turbulent-rclcpp, ros-turbulent-rosidl-generator-c, ros-turbulent-rosidl-generator-cpp, ros-turbulent-test-msgs, ros-turbulent-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-turbulent-rclcpp-action
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-turbulent-action-msgs, ros-turbulent-ament-cmake, ros-turbulent-rcl-action, ros-turbulent-rclcpp, ros-turbulent-rosidl-generator-c, ros-turbulent-rosidl-generator-cpp, ros-turbulent-ros-workspace
+Description: Adds action APIs for C++.
