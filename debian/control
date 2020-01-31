@@ -1,0 +1,12 @@
+Source: ros-turbulent-rclcpp-components
+Section: misc
+Priority: extra
+Maintainer: Michael Carroll <michael@openrobotics.org>
+Build-Depends: debhelper (>= 9.0.0), ros-turbulent-ament-cmake-gtest, ros-turbulent-ament-cmake-ros, ros-turbulent-ament-index-cpp, ros-turbulent-ament-lint-auto, ros-turbulent-ament-lint-common, ros-turbulent-class-loader, ros-turbulent-composition-interfaces, ros-turbulent-launch-testing, ros-turbulent-rclcpp, ros-turbulent-rcpputils, ros-turbulent-std-msgs, ros-turbulent-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-turbulent-rclcpp-components
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-turbulent-ament-index-cpp, ros-turbulent-class-loader, ros-turbulent-composition-interfaces, ros-turbulent-rclcpp, ros-turbulent-ros-workspace
+Description: Package containing tools for dynamically loadable components
