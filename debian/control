@@ -1,0 +1,12 @@
+Source: ros-verystable-rclcpp-action
+Section: misc
+Priority: optional
+Maintainer: Dirk Thomas <dthomas@osrfoundation.org>
+Build-Depends: debhelper (>= 9.0.0), ros-verystable-action-msgs, ros-verystable-ament-cmake, ros-verystable-ament-cmake-gtest, ros-verystable-ament-cmake-ros, ros-verystable-ament-lint-auto, ros-verystable-ament-lint-common, ros-verystable-rcl-action, ros-verystable-rclcpp, ros-verystable-rosidl-generator-c, ros-verystable-rosidl-generator-cpp, ros-verystable-test-msgs, ros-verystable-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-verystable-rclcpp-action
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-verystable-action-msgs, ros-verystable-ament-cmake, ros-verystable-rcl-action, ros-verystable-rclcpp, ros-verystable-rosidl-generator-c, ros-verystable-rosidl-generator-cpp, ros-verystable-ros-workspace
+Description: Adds action APIs for C++.
