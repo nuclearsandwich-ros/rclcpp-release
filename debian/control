@@ -1,0 +1,12 @@
+Source: ros-verystable-rclcpp
+Section: misc
+Priority: optional
+Maintainer: Dirk Thomas <dthomas@osrfoundation.org>
+Build-Depends: debhelper (>= 9.0.0), ros-verystable-ament-cmake-gmock, ros-verystable-ament-cmake-gtest, ros-verystable-ament-cmake-ros, ros-verystable-ament-lint-auto, ros-verystable-ament-lint-common, ros-verystable-builtin-interfaces, ros-verystable-rcl, ros-verystable-rcl-interfaces, ros-verystable-rcl-yaml-param-parser, ros-verystable-rcpputils, ros-verystable-rmw, ros-verystable-rmw-implementation, ros-verystable-rmw-implementation-cmake, ros-verystable-rosgraph-msgs, ros-verystable-rosidl-generator-cpp, ros-verystable-rosidl-typesupport-c, ros-verystable-rosidl-typesupport-cpp, ros-verystable-test-msgs, ros-verystable-tracetools, ros-verystable-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-verystable-rclcpp
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-verystable-ament-cmake, ros-verystable-builtin-interfaces, ros-verystable-rcl, ros-verystable-rcl-interfaces, ros-verystable-rcl-yaml-param-parser, ros-verystable-rcpputils, ros-verystable-rmw, ros-verystable-rmw-implementation, ros-verystable-rosgraph-msgs, ros-verystable-rosidl-generator-cpp, ros-verystable-rosidl-typesupport-c, ros-verystable-rosidl-typesupport-cpp, ros-verystable-tracetools, ros-verystable-ros-workspace
+Description: The ROS client library in C++.
