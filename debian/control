@@ -1,0 +1,12 @@
+Source: ros-verystable-rclcpp-components
+Section: misc
+Priority: optional
+Maintainer: Michael Carroll <michael@openrobotics.org>
+Build-Depends: debhelper (>= 9.0.0), ros-verystable-ament-cmake-gtest, ros-verystable-ament-cmake-ros, ros-verystable-ament-index-cpp, ros-verystable-ament-lint-auto, ros-verystable-ament-lint-common, ros-verystable-class-loader, ros-verystable-composition-interfaces, ros-verystable-launch-testing, ros-verystable-rclcpp, ros-verystable-rcpputils, ros-verystable-std-msgs, ros-verystable-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-verystable-rclcpp-components
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-verystable-ament-index-cpp, ros-verystable-class-loader, ros-verystable-composition-interfaces, ros-verystable-rclcpp, ros-verystable-ros-workspace
+Description: Package containing tools for dynamically loadable components
