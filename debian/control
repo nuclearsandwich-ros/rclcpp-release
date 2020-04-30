@@ -1,0 +1,12 @@
+Source: ros-verystable-rclcpp-lifecycle
+Section: misc
+Priority: optional
+Maintainer: Karsten Knese <karsten@osrfoundation.org>
+Build-Depends: debhelper (>= 9.0.0), ros-verystable-ament-cmake-gtest, ros-verystable-ament-cmake-ros, ros-verystable-ament-lint-auto, ros-verystable-ament-lint-common, ros-verystable-lifecycle-msgs, ros-verystable-rcl-lifecycle, ros-verystable-rclcpp, ros-verystable-rmw-implementation, ros-verystable-rosidl-typesupport-cpp, ros-verystable-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-verystable-rclcpp-lifecycle
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-verystable-lifecycle-msgs, ros-verystable-rcl-lifecycle, ros-verystable-rclcpp, ros-verystable-rmw-implementation, ros-verystable-rosidl-typesupport-cpp, ros-verystable-ros-workspace
+Description: Package containing a prototype for lifecycle implementation
