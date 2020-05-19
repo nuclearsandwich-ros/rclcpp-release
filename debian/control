@@ -1,0 +1,12 @@
+Source: ros-testing-rclcpp
+Section: misc
+Priority: optional
+Maintainer: Dirk Thomas <dthomas@osrfoundation.org>
+Build-Depends: debhelper (>= 9.0.0), ros-testing-ament-cmake-gmock, ros-testing-ament-cmake-gtest, ros-testing-ament-cmake-ros, ros-testing-ament-lint-auto, ros-testing-ament-lint-common, ros-testing-builtin-interfaces, ros-testing-libstatistics-collector, ros-testing-rcl, ros-testing-rcl-interfaces, ros-testing-rcl-yaml-param-parser, ros-testing-rcpputils, ros-testing-rcutils, ros-testing-rmw, ros-testing-rmw-implementation-cmake, ros-testing-rosgraph-msgs, ros-testing-rosidl-default-generators, ros-testing-rosidl-runtime-cpp, ros-testing-rosidl-typesupport-c, ros-testing-rosidl-typesupport-cpp, ros-testing-statistics-msgs, ros-testing-test-msgs, ros-testing-tracetools, ros-testing-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-testing-rclcpp
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-testing-builtin-interfaces, ros-testing-libstatistics-collector, ros-testing-rcl, ros-testing-rcl-interfaces, ros-testing-rcl-yaml-param-parser, ros-testing-rcpputils, ros-testing-rcutils, ros-testing-rmw, ros-testing-rosgraph-msgs, ros-testing-rosidl-runtime-cpp, ros-testing-rosidl-typesupport-c, ros-testing-rosidl-typesupport-cpp, ros-testing-statistics-msgs, ros-testing-tracetools, ros-testing-ros-workspace
+Description: The ROS client library in C++.
