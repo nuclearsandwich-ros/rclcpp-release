@@ -1,0 +1,12 @@
+Source: ros-testing-rclcpp-components
+Section: misc
+Priority: optional
+Maintainer: Michael Carroll <michael@openrobotics.org>
+Build-Depends: debhelper (>= 9.0.0), ros-testing-ament-cmake-gtest, ros-testing-ament-cmake-ros, ros-testing-ament-index-cpp, ros-testing-ament-lint-auto, ros-testing-ament-lint-common, ros-testing-class-loader, ros-testing-composition-interfaces, ros-testing-launch-testing, ros-testing-rclcpp, ros-testing-rcpputils, ros-testing-std-msgs, ros-testing-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-testing-rclcpp-components
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-testing-ament-index-cpp, ros-testing-class-loader, ros-testing-composition-interfaces, ros-testing-rclcpp, ros-testing-ros-workspace
+Description: Package containing tools for dynamically loadable components
