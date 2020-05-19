@@ -1,0 +1,12 @@
+Source: ros-testing-rclcpp-lifecycle
+Section: misc
+Priority: optional
+Maintainer: Karsten Knese <karsten@osrfoundation.org>
+Build-Depends: debhelper (>= 9.0.0), ros-testing-ament-cmake-gtest, ros-testing-ament-cmake-ros, ros-testing-ament-lint-auto, ros-testing-ament-lint-common, ros-testing-lifecycle-msgs, ros-testing-rcl-lifecycle, ros-testing-rclcpp, ros-testing-rmw, ros-testing-rosidl-typesupport-cpp, ros-testing-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-testing-rclcpp-lifecycle
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-testing-lifecycle-msgs, ros-testing-rcl-lifecycle, ros-testing-rclcpp, ros-testing-rmw, ros-testing-rosidl-typesupport-cpp, ros-testing-ros-workspace
+Description: Package containing a prototype for lifecycle implementation
