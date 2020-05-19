@@ -1,0 +1,12 @@
+Source: ros-testing-rclcpp-action
+Section: misc
+Priority: optional
+Maintainer: Dirk Thomas <dthomas@osrfoundation.org>
+Build-Depends: debhelper (>= 9.0.0), ros-testing-action-msgs, ros-testing-ament-cmake, ros-testing-ament-cmake-gtest, ros-testing-ament-cmake-ros, ros-testing-ament-lint-auto, ros-testing-ament-lint-common, ros-testing-rcl-action, ros-testing-rclcpp, ros-testing-rosidl-runtime-c, ros-testing-test-msgs, ros-testing-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-testing-rclcpp-action
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-testing-action-msgs, ros-testing-ament-cmake, ros-testing-rcl-action, ros-testing-rclcpp, ros-testing-rosidl-runtime-c, ros-testing-ros-workspace
+Description: Adds action APIs for C++.
