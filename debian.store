@@ -1,1 +1,1 @@
-{"trim": "", "base": "e35091a", "trimbase": "", "parent": "debian/foxy/rclcpp_components", "previous": "8e7045e"}
+{"base": "4248887", "parent": "debian/testing/rclcpp_components", "previous": "2282dc5", "trim": "", "trimbase": ""}
